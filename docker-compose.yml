@@ -1,5 +1,4 @@
 version: '3'
-
 services:
   postgresql:
     image: postgres
@@ -19,5 +18,3 @@ services:
     container_name: redis-lesson
     ports:
       - '6379-6379'
-
-      
